@@ -7,6 +7,9 @@
 //   COMMITTEE_PASSWORD - shared password for committee access
 
 export default async function handler(req, res) {
+  // Prevent any caching layer (Vercel edge, browser) from serving stale data
+  res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
+
   const password = req.headers["x-app-password"];
   if (!password || password !== process.env.COMMITTEE_PASSWORD) {
     return res.status(401).json({ error: "Incorrect password" });
