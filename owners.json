@@ -1,0 +1,788 @@
+[
+  {
+    "id": "own_1",
+    "name": "Jayadevi",
+    "unit": "10F",
+    "phone": "9446445915",
+    "email": "naveenrkumar@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Nyamannavar",
+        "tenantPhone": "8281991389"
+      }
+    ]
+  },
+  {
+    "id": "own_2",
+    "name": "Sarath",
+    "unit": "2B",
+    "phone": "9985884000",
+    "email": "sarath.r82@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_3",
+    "name": "Sabarish Pillai",
+    "unit": "11F&G",
+    "phone": "9850437779",
+    "email": "pillai.sabarish@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Achanjala E",
+        "tenantPhone": "8281537524"
+      },
+      {
+        "tenantName": "Binoy",
+        "tenantPhone": "6282601957"
+      }
+    ]
+  },
+  {
+    "id": "own_4",
+    "name": "Regi. R.R & Karthika.A.B",
+    "unit": "8L",
+    "phone": "7348897507",
+    "email": "rrregi66@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_5",
+    "name": "John Thomas & Jency George",
+    "unit": "2J",
+    "phone": "065236860, 048809393",
+    "email": "jencygeorge@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_6",
+    "name": "Jean Freeda",
+    "unit": "5K",
+    "phone": "6587198149",
+    "email": "jeanfreeda1988@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_7",
+    "name": "Mothi Mullackal",
+    "unit": "2A",
+    "phone": "9175823987",
+    "email": "mots015@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Adv Vinu Sivadasan",
+        "tenantPhone": "8281333136"
+      }
+    ]
+  },
+  {
+    "id": "own_8",
+    "name": "Muhammed Anas",
+    "unit": "3H",
+    "phone": "971528923511, 9447493110",
+    "email": "anaskakkudi@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_9",
+    "name": "Shajahan Rawther",
+    "unit": "3K",
+    "phone": "505655740",
+    "email": "shajahanrawther@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_10",
+    "name": "Mathew Thomas & Jayalakshmy",
+    "unit": "7J",
+    "phone": "0501895581, 0585020478",
+    "email": "mathew.thomas@ae.ey.com,cajayamathew@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_11",
+    "name": "Shino Mol & Jaswanth Harrison",
+    "unit": "1E",
+    "phone": "8547850826",
+    "email": "shinomol88@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_12",
+    "name": "Girish Bhaskaran Nair & Rekha Girish",
+    "unit": "7A",
+    "phone": "9717685705",
+    "email": "girishnairb@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_13",
+    "name": "Cornel",
+    "unit": "4A",
+    "phone": "96899851123",
+    "email": "cornelcfernz@gmail.com, ancycornel@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_14",
+    "name": "Sudheesh",
+    "unit": "6L",
+    "phone": "9847875268",
+    "email": "sudheeshchandran01@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_15",
+    "name": "Vinod Chattergee",
+    "unit": "2D",
+    "phone": "9632000889",
+    "email": "vinodchattergee@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_16",
+    "name": "Nimmi",
+    "unit": "1F",
+    "phone": "8618697169",
+    "email": "nims2287@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_17",
+    "name": "Hisham Mustafa",
+    "unit": "2F",
+    "phone": "971557475135",
+    "email": "clinipharm2004@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Divya",
+        "tenantPhone": "8129730011"
+      }
+    ]
+  },
+  {
+    "id": "own_18",
+    "name": "Gee Varghese",
+    "unit": "3F&G",
+    "phone": "9961948091",
+    "email": "geevarghese gvjohn@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_19",
+    "name": "Abdul Rasheed",
+    "unit": "5J",
+    "phone": "553311255",
+    "email": "rasheed@alghurair.com",
+    "isRented": false
+  },
+  {
+    "id": "own_20",
+    "name": "Ajinkumar",
+    "unit": "1H",
+    "phone": "9585590795",
+    "email": "ajinkumarvv@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_21",
+    "name": "Sunitha S Menon & P K Menon",
+    "unit": "13B",
+    "phone": "9447090044",
+    "email": "sunimenon.s@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_22",
+    "name": "Rajagopal Arumugham Pillai",
+    "unit": "10A",
+    "phone": "971504651899",
+    "email": "rajagopal.a.p@outlook.com",
+    "isRented": false
+  },
+  {
+    "id": "own_23",
+    "name": "Fazil & Shifina",
+    "unit": "5H",
+    "phone": "980965075",
+    "email": "fazilinindia@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_24",
+    "name": "Ananda Padmanabhan",
+    "unit": "3C",
+    "phone": "9567655505",
+    "email": "anandmahadevan167@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_25",
+    "name": "Pramod Pillai & Sindhu Pramod",
+    "unit": "11E",
+    "phone": "971504775274",
+    "email": "beninp@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_26",
+    "name": "Saji Abraham",
+    "unit": "6A",
+    "phone": "9446034327",
+    "email": "sajiabm17@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_27",
+    "name": "Mr.Archana R  Krishnan",
+    "unit": "6F",
+    "phone": "8147836608",
+    "email": "rohithrajeev@gmail.com,lechurkrishnan@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Noufal",
+        "tenantPhone": "7012642441"
+      }
+    ]
+  },
+  {
+    "id": "own_28",
+    "name": "Anil prakash",
+    "unit": "3D",
+    "phone": "9446359924",
+    "email": "sasneham1970@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_29",
+    "name": "Dr.Linda Jones",
+    "unit": "2C",
+    "phone": "9846112034",
+    "email": "drlindajones@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_30",
+    "name": "Reji Mathew",
+    "unit": "5B",
+    "phone": "971504680361",
+    "email": "rejicptta@yahoo.co.in",
+    "isRented": false
+  },
+  {
+    "id": "own_31",
+    "name": "Shina Sankarankutty",
+    "unit": "1G",
+    "phone": "8281022662",
+    "email": "ajinkumarvv@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_32",
+    "name": "Sangeetha",
+    "unit": "13A",
+    "phone": "9846090350",
+    "email": "sangeetha19777@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Shahina",
+        "tenantPhone": "7994349182"
+      }
+    ]
+  },
+  {
+    "id": "own_33",
+    "name": "Arun Nair",
+    "unit": "13K",
+    "phone": "97332270802",
+    "email": "abntpbn@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Rohith",
+        "tenantPhone": "8129696625"
+      }
+    ]
+  },
+  {
+    "id": "own_34",
+    "name": "Brighty George",
+    "unit": "3E",
+    "phone": "7566935384",
+    "email": "brighty.george86@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_35",
+    "name": "Prasanth",
+    "unit": "10B",
+    "phone": "96895786850",
+    "email": "prasanthc2004@gmail.com,gouri.prasanth2010@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Nazeem",
+        "tenantPhone": "7558894696"
+      }
+    ]
+  },
+  {
+    "id": "own_36",
+    "name": "M.Sudha",
+    "unit": "9A",
+    "phone": "9497758633, 9895021624",
+    "email": "sujathamadhavi2020@gmail.com, sunithapunalur@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_37",
+    "name": "Nikhil Devananda",
+    "unit": "11A",
+    "phone": "8848123610",
+    "email": "nikhildmahadeva@outlook.com",
+    "isRented": false
+  },
+  {
+    "id": "own_38",
+    "name": "Shubhangi.V.Thore & Vincent H.P",
+    "unit": "12D",
+    "phone": "8075275105",
+    "email": "vishu.international@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_39",
+    "name": "Rajesh Babu",
+    "unit": "6E",
+    "phone": "9175029597, 9048556379",
+    "email": "rajeshbabuss@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_40",
+    "name": "Vipin Kumar & Sangeetharaj",
+    "unit": "7B",
+    "phone": "971502181009",
+    "email": "vipinpillai86@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Justin Shibin",
+        "tenantPhone": "9809101872"
+      }
+    ]
+  },
+  {
+    "id": "own_41",
+    "name": "GokulKrishna",
+    "unit": "8B",
+    "phone": "8286307439",
+    "email": "pillaigokulkrishna65@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Ajesh",
+        "tenantPhone": "9746299244"
+      }
+    ]
+  },
+  {
+    "id": "own_42",
+    "name": "Faisal Ebrahimkutty & Saleema",
+    "unit": "3A",
+    "phone": "9447939726, 8075732870",
+    "email": "ebrufaisi@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_43",
+    "name": "Harshitha U & Dr.M C Rejil",
+    "unit": "4E",
+    "phone": "9496862510",
+    "email": "u22harsha@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_44",
+    "name": "Vinod Kumar TG & Chenchu Maria",
+    "unit": "6C",
+    "phone": "9495225613",
+    "email": "vnod_tg81@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_45",
+    "name": "Mr.Antony Neeraj & Mrs.Alphonsa Nirmala",
+    "unit": "3L",
+    "phone": "7907592794",
+    "email": "antonyneeraj.18.an@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Deepa",
+        "tenantPhone": "9539838329"
+      }
+    ]
+  },
+  {
+    "id": "own_46",
+    "name": "RajeshKumar R",
+    "unit": "2H",
+    "phone": "96566140079, 8075262316",
+    "email": "r.rajeshtvm@aol.com",
+    "isRented": false
+  },
+  {
+    "id": "own_47",
+    "name": "Hari Darshan",
+    "unit": "3B",
+    "phone": "96555825818",
+    "email": "harisjcit@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_48",
+    "name": "Ajay G R",
+    "unit": "11J",
+    "phone": "97474798555",
+    "email": "ajaygr21@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_49",
+    "name": "Ajay G R",
+    "unit": "11K",
+    "phone": "97474798555",
+    "email": "ajaygr21@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_50",
+    "name": "Suresh Padmanabhan Nair & Mini Ramachandran Sukumari",
+    "unit": "4B",
+    "phone": "971507876034",
+    "email": "pnairsuresh@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_51",
+    "name": "Kiran P S",
+    "unit": "8C",
+    "phone": "7306579439",
+    "email": "kiran.estatistics.com",
+    "isRented": false
+  },
+  {
+    "id": "own_52",
+    "name": "Sajith Abdul Salam & Neethu Sajith",
+    "unit": "11B",
+    "phone": "97333035099",
+    "email": "sajithsalam2009@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_53",
+    "name": "Jipza Baby & Raigon John Newzealand",
+    "unit": "10J",
+    "phone": "9567599559",
+    "email": "raigonjohn@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_54",
+    "name": "Ashish Bhupal",
+    "unit": "6B",
+    "phone": "9886858684",
+    "email": "priyanka_baruah29@yahoo.co.in",
+    "isRented": false
+  },
+  {
+    "id": "own_55",
+    "name": "Malumksa Said Ashrafjan",
+    "unit": "14A",
+    "phone": "96650418796",
+    "email": "syedashrafksa@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_56",
+    "name": "Jithin R",
+    "unit": "8A",
+    "phone": "9562456550",
+    "email": "dr.jithinrajeev@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_57",
+    "name": "M S Ferozjan & Meharunissa S",
+    "unit": "8D",
+    "phone": "9495311772",
+    "email": "msferozjan@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Vijesh",
+        "tenantPhone": "9387755228"
+      }
+    ]
+  },
+  {
+    "id": "own_58",
+    "name": "Rajesh R & VijayaSree R V",
+    "unit": "4H",
+    "phone": "8826682782",
+    "email": "rajesh87rajeshr@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_59",
+    "name": "Anagha Prasannan & Shyam Sasidharan",
+    "unit": "12C",
+    "phone": "16477398568",
+    "email": "shyam.sasidharan@hotmail.co.uk",
+    "isRented": false
+  },
+  {
+    "id": "own_60",
+    "name": "Jolly Koshy & Koshy Yohannan",
+    "unit": "11C",
+    "phone": "0097433136766, 00447769062446",
+    "email": "koshy1947@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_61",
+    "name": "Prasanth S & Nandana V S",
+    "unit": "11D",
+    "phone": "97454 06911",
+    "email": "prasanth.sukumaranhdfc@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_62",
+    "name": "Simon K Kunjappy",
+    "unit": "12F",
+    "phone": "8075384182",
+    "email": "simon.kunjappy@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_63",
+    "name": "Indu Bala Saini",
+    "unit": "4C",
+    "phone": "9717812020",
+    "email": "indu182@yahoo.co.in",
+    "isRented": false
+  },
+  {
+    "id": "own_64",
+    "name": "Rajeev Oommen",
+    "unit": "13J",
+    "phone": "96891710511",
+    "email": "rjvoommen@gmail.com",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Manesh",
+        "tenantPhone": "9995792326"
+      }
+    ]
+  },
+  {
+    "id": "own_65",
+    "name": "Prasanth U",
+    "unit": "5L",
+    "phone": "9880944550",
+    "email": "punnikri@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_66",
+    "name": "Mathew Thomas & Jayalakshmy",
+    "unit": "7K",
+    "phone": "00971501895581",
+    "email": "mathewveeram@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_67",
+    "name": "Hyness",
+    "unit": "10D",
+    "phone": "971566316510",
+    "email": "haynes4u@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_68",
+    "name": "Hena Satheeshkumar",
+    "unit": "13C",
+    "phone": "9895155622",
+    "email": "hena.babutty@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_69",
+    "name": "Mohammed Faisal",
+    "unit": "5D",
+    "phone": "9744460054",
+    "email": "thaikoottam@yahoo.com",
+    "isRented": false
+  },
+  {
+    "id": "own_70",
+    "name": "Ashif akbar ali",
+    "unit": "12J",
+    "phone": "8137996879",
+    "email": "ashifakbarali@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_71",
+    "name": "Vipin joy",
+    "unit": "6J",
+    "phone": "9961998742",
+    "email": "vipinjoy3@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_72",
+    "name": "Senthil",
+    "unit": "14L",
+    "phone": "9791388488",
+    "email": "senthilprakashmvm@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_73",
+    "name": "Manoj Unni & Meera",
+    "unit": "10C",
+    "phone": "0097336473850",
+    "email": "manoj.u.007@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_74",
+    "name": "Prasanth",
+    "unit": "4G",
+    "phone": "8089225340",
+    "email": "mprasanthnair24@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_75",
+    "name": "Akhil",
+    "unit": "4F",
+    "phone": "8089225340",
+    "email": "akhilprasanth96@hotmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_76",
+    "name": "Fahad",
+    "unit": "12E",
+    "phone": "9746083365",
+    "email": "fahadsn8888@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_80",
+    "name": "Vipin Koman",
+    "unit": "9G",
+    "phone": "9895213731",
+    "email": "vipinkoman@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_81",
+    "name": "Rishi Hassan",
+    "unit": "9J",
+    "phone": "971509399261, 8136909637",
+    "email": "rishi334455@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_82",
+    "name": "Lekha",
+    "unit": "2G",
+    "phone": "7907951903",
+    "email": "lekhakrishnan76@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_83",
+    "name": "Vivek & Vishnusree",
+    "unit": "10L",
+    "phone": "9497100831, 8891319626",
+    "email": "vivek.sreeraj@gmail.com, vishnusreevivek@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_84",
+    "name": "Shabna",
+    "unit": "5C",
+    "phone": "971505472470",
+    "email": "shabna.881@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_85",
+    "name": "Nimmy Mohan",
+    "unit": "11L",
+    "phone": "9020395399",
+    "email": "nimmymayni8@gmail.com, capeyush@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_86",
+    "name": "Sajeev idicula",
+    "unit": "9B",
+    "phone": "9497477775",
+    "email": "sajeevidicula28@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_87",
+    "name": "Gally Shaji",
+    "unit": "9D",
+    "phone": "9847341912",
+    "email": "gally.shaji@outlook.com",
+    "isRented": false
+  },
+  {
+    "id": "own_88",
+    "name": "Rema Panikar",
+    "unit": "5G",
+    "phone": "9061200560",
+    "email": "remapanikkar1@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_89",
+    "name": "Abhishek",
+    "unit": "6K",
+    "phone": "9995400825, 9048012887",
+    "email": "abhivm86@gmail.com, reshmiab1101@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_90",
+    "name": "Aiswarya S Mohan",
+    "unit": "13D",
+    "phone": "7907273398",
+    "email": "smaishu1993@gmail.com",
+    "isRented": false
+  },
+  {
+    "id": "own_91",
+    "name": "Saita Madhukar",
+    "unit": "5F",
+    "phone": "9686370055",
+    "email": "sarita80madhukar@gmail.com",
+    "isRented": false
+  }
+]
