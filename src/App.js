@@ -80,7 +80,29 @@ function LoginScreen({ onSuccess }) {
   );
 }
 
-const emptyForm = { name: "", unit: "", phone: "", email: "", isRented: false, tenantName: "", tenantPhone: "" };
+const emptyForm = {
+  name: "",
+  unit: "",
+  phone: "",
+  email: "",
+  familyCount: "",
+  occupation: "",
+  idType: "",
+  moveIn: "",
+  vehicleNumber: "",
+  emergencyContact: "",
+  remarks: "",
+  isRented: false,
+  tenantName: "",
+  tenantPhone: "",
+  tenantFamilyCount: "",
+  tenantOccupation: "",
+  tenantIdType: "",
+  tenantMoveIn: "",
+  tenantVehicleNumber: "",
+  tenantEmergencyContact: "",
+  tenantRemarks: "",
+};
 
 // ---------- Excel export ----------
 function downloadOwnersExcel(owners) {
@@ -93,6 +115,13 @@ function downloadOwnersExcel(owners) {
       "Phone No.": o.phone,
       "Email id": o.email || "",
       "Status": o.isRented ? "Rented" : "Owner-occupied",
+      "Family Count": o.familyCount || "",
+      "Occupation": o.occupation || "",
+      "ID Type": o.idType || "",
+      "Move In": o.moveIn || "",
+      "Vehicle Number": o.vehicleNumber || "",
+      "Emergency Contact": o.emergencyContact || "",
+      "Remarks": o.remarks || "",
     }));
   const ws = XLSX.utils.json_to_sheet(rows);
   const wb = XLSX.utils.book_new();
@@ -109,6 +138,13 @@ function downloadRentalsExcel(owners) {
         "Owner Name": o.name,
         "Tenant Name": t.tenantName,
         "Tenant Phone": t.tenantPhone,
+        "Family Count": t.familyCount || "",
+        "Occupation": t.occupation || "",
+        "ID Type": t.idType || "",
+        "Move In": t.moveIn || "",
+        "Vehicle Number": t.vehicleNumber || "",
+        "Emergency Contact": t.emergencyContact || "",
+        "Remarks": t.remarks || "",
       });
     });
   });
@@ -196,9 +232,23 @@ function Directory({ password, onLogout }) {
       unit: o.unit,
       phone: o.phone,
       email: o.email || "",
+      familyCount: o.familyCount || "",
+      occupation: o.occupation || "",
+      idType: o.idType || "",
+      moveIn: o.moveIn || "",
+      vehicleNumber: o.vehicleNumber || "",
+      emergencyContact: o.emergencyContact || "",
+      remarks: o.remarks || "",
       isRented: !!o.isRented,
       tenantName: firstTenant.tenantName || "",
       tenantPhone: firstTenant.tenantPhone || "",
+      tenantFamilyCount: firstTenant.familyCount || "",
+      tenantOccupation: firstTenant.occupation || "",
+      tenantIdType: firstTenant.idType || "",
+      tenantMoveIn: firstTenant.moveIn || "",
+      tenantVehicleNumber: firstTenant.vehicleNumber || "",
+      tenantEmergencyContact: firstTenant.emergencyContact || "",
+      tenantRemarks: firstTenant.remarks || "",
     });
     setErrors({});
     setEditingId(o.id);
@@ -221,9 +271,26 @@ function Directory({ password, onLogout }) {
       unit: form.unit.trim(),
       phone: form.phone.trim(),
       email: form.email.trim(),
+      familyCount: form.familyCount.trim(),
+      occupation: form.occupation.trim(),
+      idType: form.idType.trim(),
+      moveIn: form.moveIn.trim(),
+      vehicleNumber: form.vehicleNumber.trim(),
+      emergencyContact: form.emergencyContact.trim(),
+      remarks: form.remarks.trim(),
       isRented: form.isRented,
       tenants: form.isRented && form.tenantName.trim()
-        ? [{ tenantName: form.tenantName.trim(), tenantPhone: form.tenantPhone.trim() }]
+        ? [{
+            tenantName: form.tenantName.trim(),
+            tenantPhone: form.tenantPhone.trim(),
+            familyCount: form.tenantFamilyCount.trim(),
+            occupation: form.tenantOccupation.trim(),
+            idType: form.tenantIdType.trim(),
+            moveIn: form.tenantMoveIn.trim(),
+            vehicleNumber: form.tenantVehicleNumber.trim(),
+            emergencyContact: form.tenantEmergencyContact.trim(),
+            remarks: form.tenantRemarks.trim(),
+          }]
         : [],
     };
     if (editingId) {
@@ -347,6 +414,15 @@ function Directory({ password, onLogout }) {
                           ))}
                         </div>
                       )}
+                      {(o.occupation || o.vehicleNumber || o.familyCount) && (
+                        <div className="text-xs text-[#9AA396] mt-1 truncate">
+                          {[
+                            o.familyCount && `${o.familyCount} in family`,
+                            o.occupation,
+                            o.vehicleNumber && `Vehicle: ${o.vehicleNumber}`,
+                          ].filter(Boolean).join(" · ")}
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="flex items-center gap-1 shrink-0 ml-2">
@@ -365,7 +441,7 @@ function Directory({ password, onLogout }) {
 
       {modalOpen && (
         <div className="fixed inset-0 bg-black/30 flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded-xl w-full max-w-sm p-5">
+          <div className="bg-white rounded-xl w-full max-w-sm p-5 max-h-[90vh] overflow-y-auto">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-display text-lg text-[#1E2A22]">{editingId ? "Edit owner" : "Add owner"}</h2>
               <button onClick={() => setModalOpen(false)} className="text-[#9AA396] hover:text-[#1E2A22]">
@@ -385,6 +461,31 @@ function Directory({ password, onLogout }) {
               <Field label="Email (optional)" error={errors.email}>
                 <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
               </Field>
+
+              <p className="text-xs font-medium text-[#2F5D46] pt-2 border-t border-[#E3E0D6]">Additional details (optional)</p>
+              <div className="grid grid-cols-2 gap-2">
+                <Field label="Family count">
+                  <input value={form.familyCount} onChange={(e) => setForm({ ...form, familyCount: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="Occupation">
+                  <input value={form.occupation} onChange={(e) => setForm({ ...form, occupation: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="ID type">
+                  <input value={form.idType} onChange={(e) => setForm({ ...form, idType: e.target.value })} placeholder="Aadhaar, Passport…" className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="Move-in date">
+                  <input type="date" value={form.moveIn} onChange={(e) => setForm({ ...form, moveIn: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="Vehicle number">
+                  <input value={form.vehicleNumber} onChange={(e) => setForm({ ...form, vehicleNumber: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="Emergency contact">
+                  <input value={form.emergencyContact} onChange={(e) => setForm({ ...form, emergencyContact: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+              </div>
+              <Field label="Remarks">
+                <textarea value={form.remarks} onChange={(e) => setForm({ ...form, remarks: e.target.value })} rows={2} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+              </Field>
               <label className="flex items-center gap-2 text-sm text-[#1E2A22]">
                 <input
                   type="checkbox"
@@ -401,6 +502,30 @@ function Directory({ password, onLogout }) {
                   </Field>
                   <Field label="Tenant phone">
                     <input value={form.tenantPhone} onChange={(e) => setForm({ ...form, tenantPhone: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                  </Field>
+                  <p className="text-xs font-medium text-[#2F5D46] pt-1">Tenant additional details (optional)</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    <Field label="Family count">
+                      <input value={form.tenantFamilyCount} onChange={(e) => setForm({ ...form, tenantFamilyCount: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                    <Field label="Occupation">
+                      <input value={form.tenantOccupation} onChange={(e) => setForm({ ...form, tenantOccupation: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                    <Field label="ID type">
+                      <input value={form.tenantIdType} onChange={(e) => setForm({ ...form, tenantIdType: e.target.value })} placeholder="Aadhaar, Passport…" className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                    <Field label="Move-in date">
+                      <input type="date" value={form.tenantMoveIn} onChange={(e) => setForm({ ...form, tenantMoveIn: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                    <Field label="Vehicle number">
+                      <input value={form.tenantVehicleNumber} onChange={(e) => setForm({ ...form, tenantVehicleNumber: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                    <Field label="Emergency contact">
+                      <input value={form.tenantEmergencyContact} onChange={(e) => setForm({ ...form, tenantEmergencyContact: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                    </Field>
+                  </div>
+                  <Field label="Tenant remarks">
+                    <textarea value={form.tenantRemarks} onChange={(e) => setForm({ ...form, tenantRemarks: e.target.value })} rows={2} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
                   </Field>
                 </>
               )}
