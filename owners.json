@@ -791,12 +791,7 @@
     "unit": "4D",
     "phone": "7907426042",
     "email": "akhilrm92@gmail.com",
-    "isRented": true,
-    "tenants": [
-      {
-        "tenantName": "Kg",
-        "tenantPhone": "9446855316"
-      }
-    ]
+    "isRented": false,
+    "tenants": []
   }
 ]
