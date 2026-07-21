@@ -772,24 +772,12 @@
   },
   {
     "id": "own_41",
-    "name": "GokulKrishna",
+    "name": "Gokulkrishna Pillai",
     "unit": "8B",
     "phone": "8286307439",
     "email": "pillaigokulkrishna65@gmail.com",
-    "isRented": true,
-    "tenants": [
-      {
-        "tenantName": "Ajesh",
-        "tenantPhone": "9746299244",
-        "familyCount": "",
-        "occupation": "",
-        "idType": "",
-        "moveIn": "",
-        "vehicleNumber": "",
-        "emergencyContact": "",
-        "remarks": ""
-      }
-    ],
+    "isRented": false,
+    "tenants": [],
     "familyCount": "",
     "occupation": "",
     "idType": "",
