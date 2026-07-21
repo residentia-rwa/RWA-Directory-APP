@@ -246,18 +246,19 @@
   },
   {
     "id": "own_14",
-    "name": "Sudheesh",
+    "name": "Sudheesh Chandran",
     "unit": "6L",
     "phone": "9847875268",
     "email": "sudheeshchandran01@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "3",
+    "occupation": "ASM, Abbott Healthcare",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "moveIn": "2025-04-23",
+    "vehicleNumber": "KL07DB2001",
+    "emergencyContact": "9947551709",
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_15",
