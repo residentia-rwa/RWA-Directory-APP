@@ -403,9 +403,9 @@
   },
   {
     "id": "own_22",
-    "name": "Rajagopal Arumugham Pillai",
+    "name": "Rajagopal A.",
     "unit": "10A",
-    "phone": "971504651899",
+    "phone": "7902648581",
     "email": "rajagopal.a.p@outlook.com",
     "isRented": false,
     "familyCount": "",
@@ -415,7 +415,8 @@
     "vehicleNumber": "",
     "emergencyContact": "",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "33, 33A",
+    "tenants": []
   },
   {
     "id": "own_24",
