@@ -1601,5 +1601,22 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
+  },
+  {
+    "id": "mrux4sui1os2bh",
+    "name": "Fazil S",
+    "unit": "5H",
+    "phone": "9809650675",
+    "email": "fazilinindia@gmail.com",
+    "familyCount": "4",
+    "occupation": "4",
+    "idType": "",
+    "moveIn": "2025-02-27",
+    "vehicleNumber": "KL24M9789, KL21N5789, KL81A4511",
+    "parkingSlot": "37",
+    "emergencyContact": "9809650675",
+    "remarks": "",
+    "isRented": false,
+    "tenants": []
   }
 ]
