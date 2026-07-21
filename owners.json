@@ -88,14 +88,13 @@
     "phone": "7348897507",
     "email": "rrregi66@gmail.com",
     "isRented": false,
-    "familyCount": "4",
-    "occupation": "No",
-    "idType": "976484464280",
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "9645105000",
-    "remarks": "",
-    "tenants": []
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_5",
@@ -1517,6 +1516,22 @@
     "vehicleNumber": "Kl01by6724",
     "emergencyContact": "9746839912",
     "remarks": "Out of station until 25th July",
+    "isRented": false,
+    "tenants": []
+  },
+  {
+    "id": "mrurm4tltd3jfq",
+    "name": "Sajeev Idicula, Vaishali Idicula & Iyan Idicula",
+    "unit": "09B Appartment & Villa 11",
+    "phone": "+919497477775",
+    "email": "idiculasajeev@gmail.com",
+    "familyCount": "03",
+    "occupation": "Director",
+    "idType": "Aadhaar",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "+971504181445",
+    "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
     "tenants": []
   }
