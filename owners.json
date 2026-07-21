@@ -156,9 +156,9 @@
   },
   {
     "id": "own_8",
-    "name": "Mohammed Anas",
+    "name": "Muhammed Anas",
     "unit": "3H",
-    "phone": "9447493110",
+    "phone": "971528923511, 9447493110",
     "email": "anaskakkudi@gmail.com",
     "isRented": false,
     "familyCount": "",
@@ -167,9 +167,7 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": "",
-    "parkingSlot": "113",
-    "tenants": []
+    "remarks": ""
   },
   {
     "id": "own_9",
@@ -256,13 +254,12 @@
     "isRented": false,
     "familyCount": "3",
     "occupation": "ASM, Abbott Healthcare",
-    "idType": "Aadhar",
+    "idType": "",
     "moveIn": "2025-04-23",
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": [],
-    "parkingSlot": "137"
+    "tenants": []
   },
   {
     "id": "own_15",
@@ -277,9 +274,7 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": "Flat is vacant",
-    "parkingSlot": "",
-    "tenants": []
+    "remarks": ""
   },
   {
     "id": "own_16",
@@ -943,20 +938,18 @@
   },
   {
     "id": "own_53",
-    "name": "Raigon John (Newzealand)",
+    "name": "Jipza Baby & Raigon John Newzealand",
     "unit": "10J",
-    "phone": "9995529857",
+    "phone": "9567599559",
     "email": "raigonjohn@gmail.com",
     "isRented": false,
-    "familyCount": "3",
-    "occupation": "Business",
-    "idType": "Aadhaar",
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
     "moveIn": "",
-    "vehicleNumber": "DL11CB7007",
-    "emergencyContact": "9567599559",
-    "remarks": "Emergency number is my shop number",
-    "parkingSlot": "",
-    "tenants": []
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_54",
@@ -1197,6 +1190,21 @@
     "remarks": ""
   },
   {
+    "id": "own_68",
+    "name": "Hena Satheeshkumar",
+    "unit": "13C",
+    "phone": "9895155622",
+    "email": "hena.babutty@gmail.com",
+    "isRented": false,
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
+  },
+  {
     "id": "own_69",
     "name": "Mohammed Faisal",
     "unit": "5D",
@@ -1303,20 +1311,18 @@
   },
   {
     "id": "own_76",
-    "name": "Fahad Said Nazeem",
-    "unit": "12 E",
+    "name": "Fahad",
+    "unit": "12E",
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "5",
-    "occupation": "Procurement Manager",
-    "idType": "901817907130",
-    "moveIn": "2026-04-10",
-    "vehicleNumber": "KL02BY1323, KL02BK2205,KL02BS3690",
-    "emergencyContact": "9895702210",
-    "remarks": "",
-    "parkingSlot": "32, 32A (B1)",
-    "tenants": []
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_80",
@@ -1499,7 +1505,7 @@
     "remarks": "Out of station until 25th July",
     "isRented": false,
     "tenants": [],
-    "parkingSlot": "akhil"
+    "parkingSlot": "Hi"
   },
   {
     "id": "mrurm4tltd3jfq",
@@ -1517,22 +1523,5 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
-  },
-  {
-    "id": "mrutx2d6xnz1xl",
-    "name": "Hena Satheesh Kumar",
-    "unit": "13C",
-    "phone": "+91 9895155622",
-    "email": "hena.babutty@gmail.com",
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "KL20N3887",
-    "parkingSlot": "10 BF",
-    "emergencyContact": "8089003005",
-    "remarks": "",
-    "isRented": false,
-    "tenants": []
   }
 ]
