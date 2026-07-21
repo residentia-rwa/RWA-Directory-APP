@@ -1450,13 +1450,13 @@
   },
   {
     "id": "own_89",
-    "name": "Abhishek v m&Reshmi Raveendran",
+    "name": "Abhishek v m",
     "unit": "6K",
     "phone": "9995400825",
     "email": "abhivm86@gmail.com",
     "isRented": false,
     "familyCount": "4",
-    "occupation": "Govt department",
+    "occupation": "Govt sector",
     "idType": "Adhar",
     "moveIn": "2026-05-10",
     "vehicleNumber": "KL58AA9280",
@@ -1528,5 +1528,22 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
+  },
+  {
+    "id": "mrut9n1jkyp2ck",
+    "name": "David, Somiya and Sarah",
+    "unit": "Villa 9",
+    "phone": "9902161614",
+    "email": "David.george46@gmail.com",
+    "familyCount": "3",
+    "occupation": "Rowdy",
+    "idType": "",
+    "moveIn": "2026-06-01",
+    "vehicleNumber": "KL22P1261",
+    "parkingSlot": "",
+    "emergencyContact": "",
+    "remarks": "",
+    "isRented": false,
+    "tenants": []
   }
 ]
