@@ -1,5 +1,10 @@
 // api/owners.js
 // Uses a GitHub repo file as the "database" for the owner directory.
+// Writes are done as single-record operations (upsert/delete/bulkUpsert) that
+// get merged into whatever the LATEST version on GitHub is at write time -
+// this avoids the "stale full-array overwrite" conflict that happens when
+// two people save around the same time.
+//
 // Env vars needed (set in Vercel project settings):
 //   GITHUB_TOKEN        - a GitHub personal access token with repo contents read/write
 //   GITHUB_REPO         - e.g. "yourusername/owner-directory-data"
@@ -8,6 +13,7 @@
 //   ACTIVITY_LOG_PATH   - e.g. "activity-log.json" (optional, defaults below)
 
 const LOG_PATH = process.env.ACTIVITY_LOG_PATH || "activity-log.json";
+const MAX_RETRIES = 3;
 
 const FIELD_LABELS = {
   name: "Name",
@@ -55,76 +61,100 @@ function diffTenants(before, after) {
   return changes;
 }
 
-function summarizeChanges(before, after) {
-  const beforeById = new Map(before.map((o) => [o.id, o]));
-  const afterById = new Map(after.map((o) => [o.id, o]));
-  const entries = [];
-
-  for (const [id, o] of afterById) {
-    if (!beforeById.has(id)) {
-      entries.push(`Added owner: ${o.name} (Unit ${o.unit})`);
+function diffOneRecord(prev, o) {
+  const fieldChanges = [];
+  for (const key of Object.keys(FIELD_LABELS)) {
+    if ((prev?.[key] ?? "") !== (o[key] ?? "")) {
+      fieldChanges.push(`${FIELD_LABELS[key]}: ${fmt(prev?.[key])} → ${fmt(o[key])}`);
     }
   }
-  for (const [id, o] of beforeById) {
-    if (!afterById.has(id)) {
-      entries.push(`Deleted owner: ${o.name} (Unit ${o.unit})`);
-    }
-  }
-  for (const [id, o] of afterById) {
-    const prev = beforeById.get(id);
-    if (!prev) continue;
+  fieldChanges.push(...diffTenants(prev?.tenants, o.tenants));
+  return fieldChanges;
+}
 
-    const fieldChanges = [];
-    for (const key of Object.keys(FIELD_LABELS)) {
-      if ((prev[key] ?? "") !== (o[key] ?? "")) {
-        fieldChanges.push(`${FIELD_LABELS[key]}: ${fmt(prev[key])} → ${fmt(o[key])}`);
-      }
-    }
-    fieldChanges.push(...diffTenants(prev.tenants, o.tenants));
-
-    if (fieldChanges.length > 0) {
-      entries.push(`Edited: ${o.name} (Unit ${o.unit}) — ${fieldChanges.join("; ")}`);
-    }
+async function getFile(ghHeaders, url) {
+  const r = await fetch(url, { headers: ghHeaders });
+  if (!r.ok) {
+    if (r.status === 404) return { data: null, sha: null };
+    throw new Error(`GitHub read failed: ${r.status}`);
   }
-  return entries.length ? entries : ["Saved (no field-level changes detected)"];
+  const data = await r.json();
+  const content = Buffer.from(data.content, "base64").toString("utf-8");
+  let parsed;
+  try {
+    parsed = JSON.parse(content);
+  } catch {
+    parsed = null;
+  }
+  return { data: parsed, sha: data.sha };
+}
+
+async function putFile(ghHeaders, url, obj, sha, message) {
+  return fetch(url, {
+    method: "PUT",
+    headers: { ...ghHeaders, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      message,
+      content: Buffer.from(JSON.stringify(obj, null, 2)).toString("base64"),
+      ...(sha ? { sha } : {}),
+    }),
+  });
 }
 
 async function appendActivityLog(ghHeaders, repoApiBase, changeSummaries) {
   try {
     const logUrl = `${repoApiBase}/${LOG_PATH}`;
-    let log = [];
-    let sha;
-    const getR = await fetch(logUrl, { headers: ghHeaders });
-    if (getR.ok) {
-      const getData = await getR.json();
-      sha = getData.sha;
-      try {
-        log = JSON.parse(Buffer.from(getData.content, "base64").toString("utf-8"));
-      } catch {
-        log = [];
-      }
-    }
+    const { data: existingLog, sha } = await getFile(ghHeaders, logUrl);
+    let log = Array.isArray(existingLog) ? existingLog : [];
     const timestamp = new Date().toISOString();
-    changeSummaries.forEach((summary) => {
-      log.push({ timestamp, summary });
-    });
-    // Keep the log from growing unbounded
+    changeSummaries.forEach((summary) => log.push({ timestamp, summary }));
     if (log.length > 500) log = log.slice(log.length - 500);
-
-    const newContent = Buffer.from(JSON.stringify(log, null, 2)).toString("base64");
-    await fetch(logUrl, {
-      method: "PUT",
-      headers: { ...ghHeaders, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        message: `Log: ${changeSummaries.length} change(s) - ${timestamp}`,
-        content: newContent,
-        ...(sha ? { sha } : {}),
-      }),
-    });
+    await putFile(ghHeaders, logUrl, log, sha, `Log: ${changeSummaries.length} change(s) - ${timestamp}`);
   } catch (e) {
     // Logging failures should never block the actual save
     console.error("Activity log write failed:", e.message);
   }
+}
+
+function applyOperation(owners, op) {
+  const list = Array.isArray(owners) ? owners.slice() : [];
+  let summaries = [];
+
+  if (op.type === "upsert") {
+    const idx = list.findIndex((o) => o.id === op.record.id);
+    if (idx === -1) {
+      list.push(op.record);
+      summaries.push(`Added owner: ${op.record.name} (Unit ${op.record.unit})`);
+    } else {
+      const changes = diffOneRecord(list[idx], op.record);
+      if (changes.length > 0) {
+        summaries.push(`Edited: ${op.record.name} (Unit ${op.record.unit}) — ${changes.join("; ")}`);
+      }
+      list[idx] = op.record;
+    }
+  } else if (op.type === "delete") {
+    const idx = list.findIndex((o) => o.id === op.id);
+    if (idx !== -1) {
+      summaries.push(`Deleted owner: ${list[idx].name} (Unit ${list[idx].unit})`);
+      list.splice(idx, 1);
+    }
+  } else if (op.type === "bulkUpsert") {
+    for (const record of op.records) {
+      const idx = list.findIndex((o) => o.id === record.id);
+      if (idx === -1) {
+        list.push(record);
+        summaries.push(`Added owner: ${record.name} (Unit ${record.unit})`);
+      } else {
+        const changes = diffOneRecord(list[idx], record);
+        if (changes.length > 0) {
+          summaries.push(`Edited: ${record.name} (Unit ${record.unit}) — ${changes.join("; ")}`);
+        }
+        list[idx] = record;
+      }
+    }
+  }
+
+  return { list, summaries };
 }
 
 export default async function handler(req, res) {
@@ -147,58 +177,59 @@ export default async function handler(req, res) {
   };
 
   if (req.method === "GET") {
-    const r = await fetch(API_URL, { headers: ghHeaders });
-    if (!r.ok) {
-      // File may not exist yet - return empty list
-      if (r.status === 404) return res.status(200).json([]);
-      return res.status(500).json({ error: "Could not read data file" });
-    }
-    const data = await r.json();
-    const content = Buffer.from(data.content, "base64").toString("utf-8");
     try {
-      return res.status(200).json(JSON.parse(content));
-    } catch {
-      return res.status(200).json([]);
+      const { data } = await getFile(ghHeaders, API_URL);
+      return res.status(200).json(Array.isArray(data) ? data : []);
+    } catch (e) {
+      return res.status(500).json({ error: "Could not read data file", detail: e.message });
     }
   }
 
   if (req.method === "PUT") {
-    // Need current sha to update an existing file (GitHub requires this)
-    let sha;
-    let before = [];
-    const getR = await fetch(API_URL, { headers: ghHeaders });
-    if (getR.ok) {
-      const getData = await getR.json();
-      sha = getData.sha;
-      try {
-        before = JSON.parse(Buffer.from(getData.content, "base64").toString("utf-8"));
-      } catch {
-        before = [];
-      }
+    const op = req.body;
+    if (!op || !op.type) {
+      return res.status(400).json({ error: "Missing operation type" });
     }
 
-    const after = req.body;
-    const newContent = Buffer.from(JSON.stringify(after, null, 2)).toString("base64");
-    const putR = await fetch(API_URL, {
-      method: "PUT",
-      headers: { ...ghHeaders, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        message: `Update owner directory - ${new Date().toISOString()}`,
-        content: newContent,
-        ...(sha ? { sha } : {}),
-      }),
-    });
+    for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+      let current, sha;
+      try {
+        const result = await getFile(ghHeaders, API_URL);
+        current = Array.isArray(result.data) ? result.data : [];
+        sha = result.sha;
+      } catch (e) {
+        return res.status(500).json({ error: "Could not read data file", detail: e.message });
+      }
 
-    if (!putR.ok) {
+      const { list, summaries } = applyOperation(current, op);
+
+      const putR = await putFile(
+        ghHeaders,
+        API_URL,
+        list,
+        sha,
+        `Update owner directory - ${new Date().toISOString()}`
+      );
+
+      if (putR.ok) {
+        if (summaries.length > 0) {
+          await appendActivityLog(ghHeaders, REPO_API_BASE, summaries);
+        }
+        return res.status(200).json({ ok: true, owners: list });
+      }
+
+      // 409/422 means someone else saved in between - retry with fresh sha
+      if (putR.status === 409 || putR.status === 422) {
+        continue;
+      }
+
       const errBody = await putR.text();
       return res.status(500).json({ error: "Could not save data file", detail: errBody });
     }
 
-    // Log what changed (best-effort, never blocks the response)
-    const summaries = summarizeChanges(before, Array.isArray(after) ? after : []);
-    await appendActivityLog(ghHeaders, REPO_API_BASE, summaries);
-
-    return res.status(200).json({ ok: true });
+    return res.status(409).json({
+      error: "Too many people are saving changes at once - please try again in a moment",
+    });
   }
 
   res.setHeader("Allow", ["GET", "PUT"]);
