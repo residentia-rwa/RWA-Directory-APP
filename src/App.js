@@ -96,6 +96,7 @@ const emptyForm = {
   idType: "",
   moveIn: "",
   vehicleNumber: "",
+  parkingSlot: "",
   emergencyContact: "",
   remarks: "",
   isRented: false,
@@ -126,6 +127,7 @@ function downloadOwnersExcel(owners) {
       "ID Type": o.idType || "",
       "Move In": o.moveIn || "",
       "Vehicle Number": o.vehicleNumber || "",
+      "Parking Slot": o.parkingSlot || "",
       "Emergency Contact": o.emergencyContact || "",
       "Remarks": o.remarks || "",
     }));
@@ -333,6 +335,7 @@ function Directory({ password, onLogout }) {
       idType: o.idType || "",
       moveIn: o.moveIn || "",
       vehicleNumber: o.vehicleNumber || "",
+      parkingSlot: o.parkingSlot || "",
       emergencyContact: o.emergencyContact || "",
       remarks: o.remarks || "",
       isRented: !!o.isRented,
@@ -372,6 +375,7 @@ function Directory({ password, onLogout }) {
       idType: form.idType.trim(),
       moveIn: form.moveIn.trim(),
       vehicleNumber: form.vehicleNumber.trim(),
+      parkingSlot: form.parkingSlot.trim(),
       emergencyContact: form.emergencyContact.trim(),
       remarks: form.remarks.trim(),
       isRented: form.isRented,
@@ -515,12 +519,13 @@ function Directory({ password, onLogout }) {
                           ))}
                         </div>
                       )}
-                      {(o.occupation || o.vehicleNumber || o.familyCount) && (
+                      {(o.occupation || o.vehicleNumber || o.familyCount || o.parkingSlot) && (
                         <div className="text-xs text-[#9AA396] mt-1 truncate">
                           {[
                             o.familyCount && `${o.familyCount} in family`,
                             o.occupation,
                             o.vehicleNumber && `Vehicle: ${o.vehicleNumber}`,
+                            o.parkingSlot && `Parking: ${o.parkingSlot}`,
                           ].filter(Boolean).join(" · ")}
                         </div>
                       )}
@@ -579,6 +584,9 @@ function Directory({ password, onLogout }) {
                 </Field>
                 <Field label="Vehicle number">
                   <input value={form.vehicleNumber} onChange={(e) => setForm({ ...form, vehicleNumber: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
+                </Field>
+                <Field label="Parking slot">
+                  <input value={form.parkingSlot} onChange={(e) => setForm({ ...form, parkingSlot: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
                 </Field>
                 <Field label="Emergency contact">
                   <input value={form.emergencyContact} onChange={(e) => setForm({ ...form, emergencyContact: e.target.value })} className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]" />
