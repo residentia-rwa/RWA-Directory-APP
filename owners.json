@@ -1319,13 +1319,15 @@
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "5",
+    "occupation": "NRE",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "moveIn": "2026-04-10",
+    "vehicleNumber": "KL02BY1323,KL02BK2205,KL02BS3690",
+    "emergencyContact": "9895702210",
+    "remarks": "",
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_80",
