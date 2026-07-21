@@ -88,13 +88,14 @@
     "phone": "7348897507",
     "email": "rrregi66@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
+    "familyCount": "4",
+    "occupation": "No",
+    "idType": "976484464280",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "emergencyContact": "9645105000",
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_5",
