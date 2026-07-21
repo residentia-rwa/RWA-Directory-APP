@@ -19,6 +19,7 @@ const FIELD_LABELS = {
   idType: "ID type",
   moveIn: "Move-in date",
   vehicleNumber: "Vehicle number",
+  parkingSlot: "Parking slot",
   emergencyContact: "Emergency contact",
   remarks: "Remarks",
   isRented: "Rented status",
