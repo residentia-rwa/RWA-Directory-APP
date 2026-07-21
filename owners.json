@@ -236,14 +236,15 @@
     "phone": "+919847842279",
     "email": "cornelcfernz@gmail.com",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "4",
     "occupation": "",
     "idType": "",
-    "moveIn": "",
+    "moveIn": "2024-10-06",
     "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "tenants": []
+    "emergencyContact": "9207871279",
+    "remarks": "ancycornel@gmail.com",
+    "tenants": [],
+    "parkingSlot": "138"
   },
   {
     "id": "own_14",
@@ -254,13 +255,12 @@
     "isRented": false,
     "familyCount": "3",
     "occupation": "ASM, Abbott Healthcare",
-    "idType": "Aadhar",
+    "idType": "",
     "moveIn": "2025-04-23",
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": [],
-    "parkingSlot": "137"
+    "tenants": []
   },
   {
     "id": "own_15",
@@ -1513,18 +1513,18 @@
   {
     "id": "mrurm4tltd3jfq",
     "name": "Sajeev,Vaishali & Iyan Idicula Mulamoottil",
-    "unit": "09B&Villa11",
+    "unit": "09B & Villa11",
     "phone": "+919497477775",
     "email": "sajeevidicula28@gmail.com",
     "familyCount": "03",
     "occupation": "Director",
-    "idType": "Passport",
+    "idType": "Aadhaar",
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
     "tenants": [],
-    "parkingSlot": "BF - 26"
+    "parkingSlot": "B1 - 26"
   }
 ]
