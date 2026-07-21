@@ -418,22 +418,6 @@
     "parkingSlot": ""
   },
   {
-    "id": "own_23",
-    "name": "Fazil & Shifina",
-    "unit": "5H",
-    "phone": "980965075",
-    "email": "fazilinindia@gmail.com",
-    "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "parkingSlot": ""
-  },
-  {
     "id": "own_24",
     "name": "Ananda Padmanabhan",
     "unit": "3C",
