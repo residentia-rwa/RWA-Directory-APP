@@ -1530,22 +1530,5 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
-  },
-  {
-    "id": "mrutguehzuo7ts",
-    "name": "Mohammed Anas",
-    "unit": "3H",
-    "phone": "9447493110",
-    "email": "anaskakkudi@gmail.com",
-    "familyCount": "5",
-    "occupation": "0",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "parkingSlot": "113",
-    "emergencyContact": "9447493110",
-    "remarks": "",
-    "isRented": false,
-    "tenants": []
   }
 ]
