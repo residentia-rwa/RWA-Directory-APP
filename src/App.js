@@ -5,11 +5,18 @@ import * as XLSX from "xlsx";
 const SESSION_KEY = "owner_directory_password";
 
 function validatePhone(p) {
-  return /^[0-9+\-\s()]{7,15}$/.test(p.trim());
+  if (!p.trim()) return false;
+  return p
+    .split(",")
+    .map((part) => part.trim())
+    .every((part) => /^[0-9+\-\s()]{7,20}$/.test(part));
 }
 function validateEmail(e) {
   if (!e.trim()) return true;
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim());
+  return e
+    .split(",")
+    .map((part) => part.trim())
+    .every((part) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(part));
 }
 function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
