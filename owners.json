@@ -1611,22 +1611,5 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
-  },
-  {
-    "id": "mruw6ewvomw29s",
-    "name": "Test",
-    "unit": "Test unit",
-    "phone": "09446855316",
-    "email": "akhilrm92@gmail.com",
-    "familyCount": "4",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "Yhkns",
-    "parkingSlot": "124",
-    "emergencyContact": "",
-    "remarks": "",
-    "isRented": false,
-    "tenants": []
   }
 ]
