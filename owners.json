@@ -1104,13 +1104,14 @@
     "phone": "9717812020",
     "email": "indu182@yahoo.co.in",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "1",
     "occupation": "",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
+    "moveIn": "2024-10-22",
+    "vehicleNumber": "HR26DY4485",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_64",
