@@ -938,18 +938,20 @@
   },
   {
     "id": "own_53",
-    "name": "Jipza Baby & Raigon John Newzealand",
+    "name": "Raigon John (Newzealand)",
     "unit": "10J",
-    "phone": "9567599559",
+    "phone": "9995529857",
     "email": "raigonjohn@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "3",
+    "occupation": "Business",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "DL11CB7007",
+    "emergencyContact": "9567599559",
+    "remarks": "Emergency number is my shop number",
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_54",
