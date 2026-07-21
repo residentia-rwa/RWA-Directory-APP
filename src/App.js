@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { Search, Plus, Pencil, Trash2, Phone, Mail, X, Check, Users, Download, Home } from "lucide-react";
+import { Search, Plus, Pencil, Trash2, Phone, Mail, X, Check, Users, Download, Home, ShieldCheck } from "lucide-react";
 import * as XLSX from "xlsx";
 
 const SESSION_KEY = "owner_directory_password";
@@ -29,6 +29,12 @@ async function apiSave(password, owners) {
   });
   if (r.status === 401) throw new Error("unauthorized");
   if (!r.ok) throw new Error("Failed to save data");
+  return r.json();
+}
+async function fetchActivityLog(adminPassword) {
+  const r = await fetch("/api/activity-log", { headers: { "x-admin-password": adminPassword } });
+  if (r.status === 401) throw new Error("unauthorized");
+  if (!r.ok) throw new Error("Failed to load activity log");
   return r.json();
 }
 
@@ -164,7 +170,96 @@ function Field({ label, error, children }) {
   );
 }
 
-// ---------- Main directory ----------
+// ---------- Activity log (admin-only) ----------
+function ActivityLogModal({ onClose }) {
+  const [stage, setStage] = useState("password"); // password | log
+  const [adminPassword, setAdminPassword] = useState("");
+  const [entries, setEntries] = useState([]);
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  async function handleUnlock() {
+    setError("");
+    setLoading(true);
+    try {
+      const log = await fetchActivityLog(adminPassword);
+      setEntries(log);
+      setStage("log");
+    } catch (e) {
+      setError("Incorrect admin password");
+    }
+    setLoading(false);
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/30 flex items-center justify-center p-4 z-50">
+      <div className="bg-white rounded-xl w-full max-w-sm p-5 max-h-[85vh] overflow-y-auto">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="font-display text-lg text-[#1E2A22] flex items-center gap-1.5">
+            <ShieldCheck size={16} className="text-[#2F5D46]" /> Activity log
+          </h2>
+          <button onClick={onClose} className="text-[#9AA396] hover:text-[#1E2A22]">
+            <X size={18} />
+          </button>
+        </div>
+
+        {stage === "password" && (
+          <>
+            <p className="text-xs text-[#6B7568] mb-3">Enter the admin password to view committee activity.</p>
+            <input
+              type="password"
+              value={adminPassword}
+              onChange={(e) => setAdminPassword(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleUnlock()}
+              placeholder="Admin password"
+              className="w-full px-3 py-2 rounded-lg border border-[#E3E0D6] text-sm mb-2 focus:outline-none focus:ring-2 focus:ring-[#2F5D46]/30 focus:border-[#2F5D46]"
+            />
+            {error && <p className="text-xs text-[#B5533C] mb-2">{error}</p>}
+            <button
+              onClick={handleUnlock}
+              disabled={loading || !adminPassword}
+              className="w-full py-2 rounded-lg bg-[#2F5D46] text-white text-sm font-medium hover:bg-[#264B39] disabled:opacity-50"
+            >
+              {loading ? "Checking…" : "View log"}
+            </button>
+          </>
+        )}
+
+        {stage === "log" && (
+          <>
+            {entries.length === 0 ? (
+              <p className="text-sm text-[#6B7568]">No activity recorded yet.</p>
+            ) : (
+              <div className="space-y-2">
+                {entries.map((e, idx) => {
+                  const [headline, changeList] = e.summary.split(" — ");
+                  const changes = changeList ? changeList.split("; ") : [];
+                  return (
+                    <div key={idx} className="border border-[#E3E0D6] rounded-lg px-3 py-2">
+                      <p className="text-sm text-[#1E2A22] font-medium">{headline}</p>
+                      {changes.length > 0 && (
+                        <ul className="mt-1 space-y-0.5">
+                          {changes.map((c, i) => (
+                            <li key={i} className="text-xs text-[#6B7568]">• {c}</li>
+                          ))}
+                        </ul>
+                      )}
+                      <p className="text-xs text-[#9AA396] mt-1">
+                        {new Date(e.timestamp).toLocaleString()}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+
 function Directory({ password, onLogout }) {
   const [owners, setOwners] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -174,6 +269,7 @@ function Directory({ password, onLogout }) {
   const [form, setForm] = useState(emptyForm);
   const [errors, setErrors] = useState({});
   const [confirmDeleteId, setConfirmDeleteId] = useState(null);
+  const [activityLogOpen, setActivityLogOpen] = useState(false);
   const [saveState, setSaveState] = useState("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -324,11 +420,16 @@ function Directory({ password, onLogout }) {
               {saveState === "saved" && "Saved"}
               {saveState === "error" && <span className="text-[#B5533C]">Not saved</span>}
             </span>
+            <button onClick={() => setActivityLogOpen(true)} className="text-xs text-[#6B7568] hover:text-[#2F5D46] flex items-center gap-1">
+              <ShieldCheck size={12} /> Activity log
+            </button>
             <button onClick={onLogout} className="text-xs text-[#6B7568] hover:text-[#1E2A22]">
               Sign out
             </button>
           </div>
         </div>
+
+        {activityLogOpen && <ActivityLogModal onClose={() => setActivityLogOpen(false)} />}
 
         {errorMsg && <div className="mb-4 px-3 py-2 rounded-lg bg-[#FBEAE6] text-[#B5533C] text-xs">{errorMsg}</div>}
 
