@@ -502,13 +502,14 @@
     "phone": "9846112034",
     "email": "drlindajones@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "1",
+    "occupation": "Doctor",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
+    "vehicleNumber": "KL01 CM 5101",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_30",
