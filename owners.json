@@ -502,14 +502,13 @@
     "phone": "9846112034",
     "email": "drlindajones@gmail.com",
     "isRented": false,
-    "familyCount": "1",
-    "occupation": "Doctor",
+    "familyCount": "",
+    "occupation": "",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "KL01 CM 5101",
+    "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": "",
-    "tenants": []
+    "remarks": ""
   },
   {
     "id": "own_30",
@@ -1328,13 +1327,14 @@
     "phone": "9895213731",
     "email": "vipinkoman@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "4",
+    "occupation": "Private",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "moveIn": "2026-12-01",
+    "vehicleNumber": "Kl55p6000",
+    "emergencyContact": "9895213731",
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_81",
