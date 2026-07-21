@@ -21,15 +21,38 @@ async function apiGet(password) {
   if (!r.ok) throw new Error("Failed to load data");
   return r.json();
 }
-async function apiSave(password, owners) {
+async function apiUpsert(password, record) {
   const r = await fetch("/api/owners", {
     method: "PUT",
     headers: { "x-app-password": password, "Content-Type": "application/json" },
-    body: JSON.stringify(owners),
+    body: JSON.stringify({ type: "upsert", record }),
   });
   if (r.status === 401) throw new Error("unauthorized");
-  if (!r.ok) throw new Error("Failed to save data");
-  return r.json();
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || "Failed to save data");
+  return data;
+}
+async function apiDelete(password, id) {
+  const r = await fetch("/api/owners", {
+    method: "PUT",
+    headers: { "x-app-password": password, "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "delete", id }),
+  });
+  if (r.status === 401) throw new Error("unauthorized");
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || "Failed to delete");
+  return data;
+}
+async function apiBulkUpsert(password, records) {
+  const r = await fetch("/api/owners", {
+    method: "PUT",
+    headers: { "x-app-password": password, "Content-Type": "application/json" },
+    body: JSON.stringify({ type: "bulkUpsert", records }),
+  });
+  if (r.status === 401) throw new Error("unauthorized");
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || "Failed to import");
+  return data;
 }
 async function fetchActivityLog(adminPassword) {
   const r = await fetch("/api/activity-log", { headers: { "x-admin-password": adminPassword } });
@@ -291,16 +314,64 @@ function Directory({ password, onLogout }) {
     load();
   }, [load]);
 
-  async function persist(next) {
-    setOwners(next);
+  async function persistUpsert(record) {
+    const previous = owners;
+    const exists = owners.some((o) => o.id === record.id);
+    const optimistic = exists ? owners.map((o) => (o.id === record.id ? record : o)) : [...owners, record];
+    setOwners(optimistic);
     setSaveState("saving");
+    setErrorMsg("");
     try {
-      await apiSave(password, next);
+      const result = await apiUpsert(password, record);
+      if (result.owners) setOwners(result.owners);
       setSaveState("saved");
     } catch (e) {
       if (e.message === "unauthorized") return onLogout();
+      setOwners(previous);
       setSaveState("error");
-      setErrorMsg("Save failed — your change may not have persisted. Try again.");
+      setErrorMsg(e.message || "Save failed — your change was not saved. Try again.");
+    }
+    setTimeout(() => setSaveState((s) => (s === "saving" ? s : "idle")), 1500);
+  }
+
+  async function persistDelete(id) {
+    const previous = owners;
+    setOwners(owners.filter((o) => o.id !== id));
+    setSaveState("saving");
+    setErrorMsg("");
+    try {
+      const result = await apiDelete(password, id);
+      if (result.owners) setOwners(result.owners);
+      setSaveState("saved");
+    } catch (e) {
+      if (e.message === "unauthorized") return onLogout();
+      setOwners(previous);
+      setSaveState("error");
+      setErrorMsg(e.message || "Delete failed. Try again.");
+    }
+    setTimeout(() => setSaveState((s) => (s === "saving" ? s : "idle")), 1500);
+  }
+
+  async function persistBulkUpsert(records) {
+    const previous = owners;
+    const merged = owners.slice();
+    records.forEach((r) => {
+      const idx = merged.findIndex((o) => o.id === r.id);
+      if (idx === -1) merged.push(r);
+      else merged[idx] = r;
+    });
+    setOwners(merged);
+    setSaveState("saving");
+    setErrorMsg("");
+    try {
+      const result = await apiBulkUpsert(password, records);
+      if (result.owners) setOwners(result.owners);
+      setSaveState("saved");
+    } catch (e) {
+      if (e.message === "unauthorized") return onLogout();
+      setOwners(previous);
+      setSaveState("error");
+      setErrorMsg(e.message || "Import failed. Try again.");
     }
     setTimeout(() => setSaveState((s) => (s === "saving" ? s : "idle")), 1500);
   }
@@ -394,14 +465,15 @@ function Directory({ password, onLogout }) {
         : [],
     };
     if (editingId) {
-      persist(owners.map((o) => (o.id === editingId ? { ...o, ...clean } : o)));
+      const existing = owners.find((o) => o.id === editingId);
+      persistUpsert({ ...existing, ...clean, id: editingId });
     } else {
-      persist([...owners, { id: uid(), ...clean }]);
+      persistUpsert({ id: uid(), ...clean });
     }
     setModalOpen(false);
   }
   function handleDelete(id) {
-    persist(owners.filter((o) => o.id !== id));
+    persistDelete(id);
     setConfirmDeleteId(null);
   }
 
