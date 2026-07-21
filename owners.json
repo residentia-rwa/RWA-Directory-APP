@@ -25,7 +25,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_2",
@@ -40,7 +41,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_3",
@@ -79,7 +81,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_4",
@@ -88,13 +91,14 @@
     "phone": "7348897507",
     "email": "rrregi66@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
+    "familyCount": "4",
+    "occupation": "No",
+    "idType": "976484464280",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "emergencyContact": "9645105000",
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_5",
@@ -109,7 +113,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_6",
@@ -124,7 +129,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_7",
@@ -152,7 +158,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_8",
@@ -167,7 +174,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": "113"
   },
   {
     "id": "own_9",
@@ -182,7 +190,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_10",
@@ -191,13 +200,14 @@
     "phone": "0501895581, 0585020478",
     "email": "mathew.thomas@ae.ey.com,cajayamathew@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "5",
+    "occupation": "CA",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "KL030206",
+    "emergencyContact": "8113094403",
+    "remarks": "",
+    "parkingSlot": "29"
   },
   {
     "id": "own_11",
@@ -212,7 +222,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_12",
@@ -227,7 +238,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_13",
@@ -236,14 +248,15 @@
     "phone": "+919847842279",
     "email": "cornelcfernz@gmail.com",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "4",
     "occupation": "",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "tenants": []
+    "vehicleNumber": "KL74-F-0991, KL01-DC-4253",
+    "emergencyContact": "9207871279",
+    "remarks": "ancycornel@gmail.com",
+    "tenants": [],
+    "parkingSlot": "138"
   },
   {
     "id": "own_14",
@@ -254,12 +267,13 @@
     "isRented": false,
     "familyCount": "3",
     "occupation": "ASM, Abbott Healthcare",
-    "idType": "",
+    "idType": "Aadhar",
     "moveIn": "2025-04-23",
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": "137"
   },
   {
     "id": "own_15",
@@ -274,7 +288,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "Flat is vacant",
+    "parkingSlot": ""
   },
   {
     "id": "own_16",
@@ -289,7 +304,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_17",
@@ -317,7 +333,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_18",
@@ -332,7 +349,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_19",
@@ -347,7 +365,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_20",
@@ -362,7 +381,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_21",
@@ -377,7 +397,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_22",
@@ -392,7 +413,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_23",
@@ -407,7 +429,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_24",
@@ -422,7 +445,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_25",
@@ -431,13 +455,14 @@
     "phone": "971504775274",
     "email": "beninp@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "6",
+    "occupation": "Service",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "MH03DG8574",
+    "emergencyContact": "9833434517",
+    "remarks": "1 additional Vehicle Activa  Scotter",
+    "parkingSlot": ""
   },
   {
     "id": "own_26",
@@ -452,7 +477,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_27",
@@ -480,7 +506,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_28",
@@ -495,7 +522,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_29",
@@ -504,13 +532,14 @@
     "phone": "9846112034",
     "email": "drlindajones@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "1",
+    "occupation": "Doctor",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
+    "vehicleNumber": "KL01 CM 5101",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_30",
@@ -525,7 +554,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_31",
@@ -540,7 +570,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_32",
@@ -568,7 +599,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_33",
@@ -596,7 +628,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_34",
@@ -611,7 +644,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_35",
@@ -639,7 +673,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_36",
@@ -654,7 +689,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_37",
@@ -669,7 +705,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_38",
@@ -684,7 +721,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_39",
@@ -699,7 +737,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_40",
@@ -727,7 +766,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_41",
@@ -755,7 +795,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_42",
@@ -771,22 +812,24 @@
     "vehicleNumber": "KL02BA 8200",
     "emergencyContact": "8075732870",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_43",
     "name": "Harshitha U & Dr.M C Rejil",
     "unit": "4E",
-    "phone": "9496862510",
-    "email": "u22harsha@gmail.com",
+    "phone": "9447226168",
+    "email": "rejilchandran@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "4",
+    "occupation": "IAS",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "KL75A 1060",
+    "emergencyContact": "9496762510",
+    "remarks": "",
+    "parkingSlot": "117"
   },
   {
     "id": "own_44",
@@ -801,7 +844,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_45",
@@ -829,7 +873,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_46",
@@ -844,7 +889,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_47",
@@ -859,7 +905,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_48",
@@ -874,7 +921,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_49",
@@ -889,7 +937,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_50",
@@ -904,7 +953,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_51",
@@ -919,7 +969,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_52",
@@ -934,7 +985,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_53",
@@ -943,13 +995,14 @@
     "phone": "9567599559",
     "email": "raigonjohn@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
+    "familyCount": "3",
+    "occupation": "Business",
+    "idType": "Aadhaar",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "DL11CB7007",
+    "emergencyContact": "9567599559",
+    "remarks": "Emergency number is my shop number",
+    "parkingSlot": "Car park No 34 alloted- BF"
   },
   {
     "id": "own_54",
@@ -964,7 +1017,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_55",
@@ -979,7 +1033,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_56",
@@ -994,7 +1049,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_57",
@@ -1022,7 +1078,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_58",
@@ -1037,7 +1094,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_59",
@@ -1052,7 +1110,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_60",
@@ -1067,7 +1126,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_61",
@@ -1082,7 +1142,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_62",
@@ -1097,7 +1158,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_63",
@@ -1113,7 +1175,8 @@
     "vehicleNumber": "HR26DY4485",
     "emergencyContact": "",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_64",
@@ -1141,7 +1204,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_65",
@@ -1157,7 +1221,8 @@
     "vehicleNumber": "KL70H0603",
     "emergencyContact": "9562427680",
     "remarks": "Currently it's vaccant",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_66",
@@ -1166,13 +1231,14 @@
     "phone": "00971501895581",
     "email": "mathewveeram@yahoo.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "5",
+    "occupation": "CA",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "KL03AH0200",
+    "emergencyContact": "+971501895581",
+    "remarks": "",
+    "parkingSlot": "102"
   },
   {
     "id": "own_67",
@@ -1187,7 +1253,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_68",
@@ -1202,7 +1269,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_69",
@@ -1217,7 +1285,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_70",
@@ -1232,7 +1301,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_71",
@@ -1247,7 +1317,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_72",
@@ -1262,7 +1333,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_73",
@@ -1277,7 +1349,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_74",
@@ -1292,7 +1365,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_75",
@@ -1307,7 +1381,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_76",
@@ -1316,13 +1391,14 @@
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "familyCount": "5",
+    "occupation": "Procurement Manager",
+    "idType": "901817907130",
+    "moveIn": "2026-04-10",
+    "vehicleNumber": "KL02BY1323, KL02BK2205,KL02BS3690",
+    "emergencyContact": "9895702210",
+    "remarks": "",
+    "parkingSlot": "32, 32A (B1)"
   },
   {
     "id": "own_80",
@@ -1338,7 +1414,8 @@
     "vehicleNumber": "Kl55p6000",
     "emergencyContact": "9895213731",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_81",
@@ -1353,7 +1430,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_82",
@@ -1368,7 +1446,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_83",
@@ -1383,7 +1462,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_84",
@@ -1398,7 +1478,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_85",
@@ -1413,7 +1494,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_87",
@@ -1428,7 +1510,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_88",
@@ -1443,7 +1526,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_89",
@@ -1452,13 +1536,14 @@
     "phone": "9995400825, 9048012887",
     "email": "abhivm86@gmail.com, reshmiab1101@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
+    "familyCount": "4",
+    "occupation": "Govt sector",
+    "idType": "Adhar",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "vehicleNumber": "KL58AA9280",
+    "emergencyContact": "9048012887",
+    "remarks": "9633201882 home number",
+    "parkingSlot": "78"
   },
   {
     "id": "own_90",
@@ -1473,7 +1558,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_91",
@@ -1488,7 +1574,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "mrtlhshse8viir",
