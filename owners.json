@@ -231,10 +231,10 @@
   },
   {
     "id": "own_13",
-    "name": "Cornel",
+    "name": "Cornel and Ancy",
     "unit": "4A",
-    "phone": "96899851123",
-    "email": "cornelcfernz@gmail.com, ancycornel@gmail.com",
+    "phone": "+919847842279",
+    "email": "cornelcfernz@gmail.com",
     "isRented": false,
     "familyCount": "",
     "occupation": "",
@@ -242,7 +242,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "tenants": []
   },
   {
     "id": "own_14",
@@ -1149,13 +1150,14 @@
     "phone": "9880944550",
     "email": "punnikri@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "familyCount": "3",
+    "occupation": "Private Employee",
+    "idType": "Aadhar",
+    "moveIn": "2026-01-01",
+    "vehicleNumber": "KL70H0603",
+    "emergencyContact": "9562427680",
+    "remarks": "Currently it's vaccant",
+    "tenants": []
   },
   {
     "id": "own_66",
@@ -1502,39 +1504,23 @@
     "emergencyContact": "9746839912",
     "remarks": "Out of station until 25th July",
     "isRented": false,
-    "tenants": [],
-    "parkingSlot": "ghsggh"
+    "tenants": []
   },
   {
     "id": "mrurm4tltd3jfq",
     "name": "Sajeev,Vaishali & Iyan Idicula",
-    "unit": "09B",
+    "unit": "09B & Villa11",
     "phone": "+919497477775",
     "email": "sajeevidicula28@gmail.com",
     "familyCount": "03",
     "occupation": "Director",
-    "idType": "Passport",
+    "idType": "Aadhaar",
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
-    "tenants": []
-  },
-  {
-    "id": "mrurwzyyxpdapu",
-    "name": "Sajeev, Vaishali & Iyan Idicula",
-    "unit": "Villa11",
-    "phone": "+919497477775",
-    "email": "sajeevidicula28@gmail.com",
-    "familyCount": "03",
-    "occupation": "Director",
-    "idType": "Passport",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "Currently Residing in Dubai\nVilla30A, 27 B Street, Mirdiff, Dubai",
-    "isRented": false,
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": "B1 - 26"
   }
 ]
