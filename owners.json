@@ -158,7 +158,7 @@
     "id": "own_8",
     "name": "Muhammed Anas",
     "unit": "3H",
-    "phone": "971528923511, 9447493110",
+    "phone": "9447493110",
     "email": "anaskakkudi@gmail.com",
     "isRented": false,
     "familyCount": "",
@@ -167,7 +167,9 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": "113",
+    "tenants": []
   },
   {
     "id": "own_9",
