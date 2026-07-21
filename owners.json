@@ -254,12 +254,13 @@
     "isRented": false,
     "familyCount": "3",
     "occupation": "ASM, Abbott Healthcare",
-    "idType": "",
+    "idType": "Aadhar",
     "moveIn": "2025-04-23",
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": "137"
   },
   {
     "id": "own_15",
