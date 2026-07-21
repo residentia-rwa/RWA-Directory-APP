@@ -233,8 +233,8 @@
     "id": "own_13",
     "name": "Cornel",
     "unit": "4A",
-    "phone": "+919847842279",
-    "email": "cornelcfernz@gmail.com",
+    "phone": "96899851123",
+    "email": "cornelcfernz@gmail.com, ancycornel@gmail.com",
     "isRented": false,
     "familyCount": "",
     "occupation": "",
@@ -242,8 +242,7 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": "",
-    "tenants": []
+    "remarks": ""
   },
   {
     "id": "own_14",
@@ -1150,14 +1149,13 @@
     "phone": "9880944550",
     "email": "punnikri@gmail.com",
     "isRented": false,
-    "familyCount": "3",
-    "occupation": "Private Employee",
-    "idType": "Aadhar",
-    "moveIn": "2026-01-01",
-    "vehicleNumber": "KL70H0603",
-    "emergencyContact": "9562427680",
-    "remarks": "Currently it's vaccant",
-    "tenants": []
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_66",
@@ -1519,6 +1517,22 @@
     "vehicleNumber": "",
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
+    "isRented": false,
+    "tenants": []
+  },
+  {
+    "id": "mrus1oyvaz0uxj",
+    "name": "Sajith Abdul Salam & Neethu Sajith",
+    "unit": "11 B",
+    "phone": "00973-33035099",
+    "email": "Sajithsalam2009@gmail.com",
+    "familyCount": "4",
+    "occupation": "Engineer",
+    "idType": "Passport noU0904364",
+    "moveIn": "2025-02-04",
+    "vehicleNumber": "",
+    "emergencyContact": "00973 33038099",
+    "remarks": "We are currently residing in Bahrain, kept for renting out",
     "isRented": false,
     "tenants": []
   }
