@@ -1504,7 +1504,8 @@
     "emergencyContact": "9746839912",
     "remarks": "Out of station until 25th July",
     "isRented": false,
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": "akhil"
   },
   {
     "id": "mrurm4tltd3jfq",
