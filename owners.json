@@ -236,14 +236,15 @@
     "phone": "+919847842279",
     "email": "cornelcfernz@gmail.com",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "4",
     "occupation": "",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "tenants": []
+    "moveIn": "2024-10-06",
+    "vehicleNumber": "KL74-F-0991, KL01-DC-4253",
+    "emergencyContact": "9207871279",
+    "remarks": "ancycornel@gmail.com",
+    "tenants": [],
+    "parkingSlot": "138"
   },
   {
     "id": "own_14",
@@ -254,13 +255,12 @@
     "isRented": false,
     "familyCount": "3",
     "occupation": "ASM, Abbott Healthcare",
-    "idType": "Aadhar",
+    "idType": "",
     "moveIn": "2025-04-23",
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": [],
-    "parkingSlot": "137"
+    "tenants": []
   },
   {
     "id": "own_15",
@@ -1319,15 +1319,13 @@
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "5",
-    "occupation": "Procurement Manager",
+    "familyCount": "",
+    "occupation": "",
     "idType": "",
-    "moveIn": "2026-04-10",
-    "vehicleNumber": "KL02BY1323,KL02BK2205,KL02BS3690",
-    "emergencyContact": "9895702210",
-    "remarks": "",
-    "parkingSlot": "32,32A",
-    "tenants": []
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_80",
