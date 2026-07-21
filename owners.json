@@ -104,17 +104,18 @@
     "id": "own_5",
     "name": "John Thomas & Jency George",
     "unit": "2J",
-    "phone": "065236860, 048809393",
+    "phone": "00971543098877",
     "email": "jencygeorge@yahoo.com",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "4",
     "occupation": "",
     "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
+    "emergencyContact": "9847288458",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "69",
+    "tenants": []
   },
   {
     "id": "own_6",
