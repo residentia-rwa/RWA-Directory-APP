@@ -522,5 +522,9 @@
   {
     "timestamp": "2026-07-21T16:52:46.831Z",
     "summary": "Added owner: Test (Unit Test unit)"
+  },
+  {
+    "timestamp": "2026-07-21T16:53:13.479Z",
+    "summary": "Deleted owner: Test (Unit Test unit)"
   }
 ]
