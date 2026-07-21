@@ -454,5 +454,37 @@
   {
     "timestamp": "2026-07-21T16:00:35.753Z",
     "summary": "Saved (no field-level changes detected)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Added owner: Hena Satheeshkumar (Unit 13C)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Deleted owner: Hena Satheesh Kumar (Unit 13C)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Muhammed Anas (Unit 3H) — Name: Mohammed Anas → Muhammed Anas; Phone: 9447493110 → 971528923511, 9447493110; Parking slot: 113 → (blank)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Sudheesh Chandran (Unit 6L) — ID type: Aadhar → (blank); Parking slot: 137 → (blank)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Vinod Chattergee (Unit 2D) — Remarks: Flat is vacant → (blank)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Jipza Baby & Raigon John Newzealand (Unit 10J) — Name: Raigon John (Newzealand) → Jipza Baby & Raigon John Newzealand; Phone: 9995529857 → 9567599559; Family count: 3 → (blank); Occupation: Business → (blank); ID type: Aadhaar → (blank); Vehicle number: DL11CB7007 → (blank); Emergency contact: 9567599559 → (blank); Remarks: Emergency number is my shop number → (blank)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Fahad (Unit 12E) — Name: Fahad Said Nazeem → Fahad; Unit: 12 E → 12E; Family count: 5 → (blank); Occupation: Procurement Manager → (blank); ID type: 901817907130 → (blank); Move-in date: 2026-04-10 → (blank); Vehicle number: KL02BY1323, KL02BK2205,KL02BS3690 → (blank); Parking slot: 32, 32A (B1) → (blank); Emergency contact: 9895702210 → (blank)"
+  },
+  {
+    "timestamp": "2026-07-21T16:09:11.630Z",
+    "summary": "Edited: Akhil RV (Unit 4D) — Parking slot: akhil → Hi"
   }
 ]
