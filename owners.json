@@ -277,7 +277,9 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "Flat is vacant",
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_16",
