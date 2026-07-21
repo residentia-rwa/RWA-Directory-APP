@@ -1610,22 +1610,5 @@
     "isRented": false,
     "tenants": [],
     "parkingSlot": "B1 - 26"
-  },
-  {
-    "id": "mruvmd4yxde5tf",
-    "name": "Jency George & John Thomas",
-    "unit": "2J",
-    "phone": "00971543098877",
-    "email": "jencygeorge@yahoo.com",
-    "familyCount": "4",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "parkingSlot": "69",
-    "emergencyContact": "9847288458",
-    "remarks": "Flat is locked and we are residing abroad",
-    "isRented": false,
-    "tenants": []
   }
 ]
