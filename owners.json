@@ -639,14 +639,15 @@
     "phone": "7566935384",
     "email": "brighty.george86@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "parkingSlot": ""
+    "familyCount": "5",
+    "occupation": "Lecturer",
+    "idType": "9299 4720 2396",
+    "moveIn": "2025-05-30",
+    "vehicleNumber": "KL 61 G 3731",
+    "emergencyContact": "7566935384",
+    "remarks": "Alternate phn no. 7599003247",
+    "parkingSlot": "46",
+    "tenants": []
   },
   {
     "id": "own_35",
