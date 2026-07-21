@@ -1473,19 +1473,20 @@
   },
   {
     "id": "own_85",
-    "name": "Nimmy Mohan",
+    "name": "Nimmy Mohan & Peyush Prem",
     "unit": "11L",
-    "phone": "9020395399",
+    "phone": "+919020395399",
     "email": "nimmymayni8@gmail.com, capeyush@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "3",
+    "occupation": "CA",
     "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
+    "emergencyContact": "+919995915119",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_87",
