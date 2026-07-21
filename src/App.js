@@ -50,17 +50,6 @@ async function apiDelete(password, id) {
   if (!r.ok) throw new Error(data.error || "Failed to delete");
   return data;
 }
-async function apiBulkUpsert(password, records) {
-  const r = await fetch("/api/owners", {
-    method: "PUT",
-    headers: { "x-app-password": password, "Content-Type": "application/json" },
-    body: JSON.stringify({ type: "bulkUpsert", records }),
-  });
-  if (r.status === 401) throw new Error("unauthorized");
-  const data = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(data.error || "Failed to import");
-  return data;
-}
 async function fetchActivityLog(adminPassword) {
   const r = await fetch("/api/activity-log", { headers: { "x-admin-password": adminPassword } });
   if (r.status === 401) throw new Error("unauthorized");
@@ -355,30 +344,6 @@ function Directory({ password, onLogout }) {
       setOwners(previous);
       setSaveState("error");
       setErrorMsg(e.message || "Delete failed. Try again.");
-    }
-    setTimeout(() => setSaveState((s) => (s === "saving" ? s : "idle")), 1500);
-  }
-
-  async function persistBulkUpsert(records) {
-    const previous = owners;
-    const merged = owners.slice();
-    records.forEach((r) => {
-      const idx = merged.findIndex((o) => o.id === r.id);
-      if (idx === -1) merged.push(r);
-      else merged[idx] = r;
-    });
-    setOwners(merged);
-    setSaveState("saving");
-    setErrorMsg("");
-    try {
-      const result = await apiBulkUpsert(password, records);
-      if (result.owners) setOwners(result.owners);
-      setSaveState("saved");
-    } catch (e) {
-      if (e.message === "unauthorized") return onLogout();
-      setOwners(previous);
-      setSaveState("error");
-      setErrorMsg(e.message || "Import failed. Try again.");
     }
     setTimeout(() => setSaveState((s) => (s === "saving" ? s : "idle")), 1500);
   }
