@@ -948,10 +948,10 @@
     "occupation": "Business",
     "idType": "Aadhaar",
     "moveIn": "",
-    "vehicleNumber": "DL11CB7007 (Fortuner),  KL01CN6684(Inova)",
+    "vehicleNumber": "DL11CB7007",
     "emergencyContact": "9567599559",
     "remarks": "Emergency number is my shop number",
-    "parkingSlot": "Car park No 34 alloted- BF",
+    "parkingSlot": "",
     "tenants": []
   },
   {
@@ -1319,13 +1319,15 @@
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "5",
+    "occupation": "Procurement Manager",
     "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": ""
+    "moveIn": "2026-04-10",
+    "vehicleNumber": "KL02BY1323,KL02BK2205,KL02BS3690",
+    "emergencyContact": "9895702210",
+    "remarks": "",
+    "parkingSlot": "32,32A",
+    "tenants": []
   },
   {
     "id": "own_80",
@@ -1513,18 +1515,18 @@
   {
     "id": "mrurm4tltd3jfq",
     "name": "Sajeev,Vaishali & Iyan Idicula Mulamoottil",
-    "unit": "9B&VLA11",
+    "unit": "09B & Villa11",
     "phone": "+919497477775",
     "email": "sajeevidicula28@gmail.com",
     "familyCount": "03",
     "occupation": "Director",
-    "idType": "Passport",
+    "idType": "Aadhaar",
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
     "tenants": [],
-    "parkingSlot": "BF - 26"
+    "parkingSlot": "B1 - 26"
   }
 ]
