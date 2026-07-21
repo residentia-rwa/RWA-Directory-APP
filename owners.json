@@ -1319,15 +1319,13 @@
     "phone": "9746083365",
     "email": "fahadsn8888@gmail.com",
     "isRented": false,
-    "familyCount": "5",
-    "occupation": "NRE",
+    "familyCount": "",
+    "occupation": "",
     "idType": "",
-    "moveIn": "2026-04-10",
-    "vehicleNumber": "KL02BY1323,KL02BK2205,KL02BS3690",
-    "emergencyContact": "9895702210",
-    "remarks": "",
-    "parkingSlot": "",
-    "tenants": []
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": ""
   },
   {
     "id": "own_80",
@@ -1515,18 +1513,18 @@
   {
     "id": "mrurm4tltd3jfq",
     "name": "Sajeev,Vaishali & Iyan Idicula Mulamoottil",
-    "unit": "09B & Villa11",
+    "unit": "09B&Villa11",
     "phone": "+919497477775",
     "email": "sajeevidicula28@gmail.com",
     "familyCount": "03",
     "occupation": "Director",
-    "idType": "Aadhaar",
+    "idType": "Passport",
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
     "tenants": [],
-    "parkingSlot": "B1 - 26"
+    "parkingSlot": "BF - 26"
   }
 ]
