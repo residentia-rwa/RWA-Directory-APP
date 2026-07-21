@@ -1509,7 +1509,7 @@
   {
     "id": "mrurm4tltd3jfq",
     "name": "Sajeev,Vaishali & Iyan Idicula",
-    "unit": "09B",
+    "unit": "09B & Villa11",
     "phone": "+919497477775",
     "email": "sajeevidicula28@gmail.com",
     "familyCount": "03",
@@ -1520,6 +1520,7 @@
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   }
 ]
