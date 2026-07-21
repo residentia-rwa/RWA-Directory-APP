@@ -25,7 +25,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_2",
@@ -40,7 +41,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_3",
@@ -79,7 +81,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_4",
@@ -94,7 +97,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_5",
@@ -109,7 +113,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_6",
@@ -124,7 +129,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_7",
@@ -152,7 +158,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_8",
@@ -167,7 +174,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_9",
@@ -182,7 +190,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_10",
@@ -197,7 +206,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_11",
@@ -212,7 +222,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_12",
@@ -227,7 +238,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_13",
@@ -242,7 +254,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_14",
@@ -258,7 +271,8 @@
     "vehicleNumber": "KL07DB2001",
     "emergencyContact": "9947551709",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_15",
@@ -273,7 +287,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_16",
@@ -288,7 +303,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_17",
@@ -316,7 +332,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_18",
@@ -331,7 +348,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_19",
@@ -346,7 +364,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_20",
@@ -361,7 +380,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_21",
@@ -376,7 +396,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_22",
@@ -391,7 +412,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_23",
@@ -406,7 +428,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_24",
@@ -421,7 +444,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_25",
@@ -436,7 +460,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_26",
@@ -451,7 +476,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_27",
@@ -479,7 +505,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_28",
@@ -494,7 +521,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_29",
@@ -509,7 +537,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_30",
@@ -524,7 +553,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_31",
@@ -539,7 +569,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_32",
@@ -567,7 +598,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_33",
@@ -595,7 +627,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_34",
@@ -610,7 +643,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_35",
@@ -638,7 +672,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_36",
@@ -653,7 +688,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_37",
@@ -668,7 +704,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_38",
@@ -683,7 +720,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_39",
@@ -698,7 +736,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_40",
@@ -726,7 +765,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_41",
@@ -754,7 +794,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_42",
@@ -770,7 +811,8 @@
     "vehicleNumber": "KL02BA 8200",
     "emergencyContact": "8075732870",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_43",
@@ -785,7 +827,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_44",
@@ -800,7 +843,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_45",
@@ -828,7 +872,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_46",
@@ -843,7 +888,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_47",
@@ -858,7 +904,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_48",
@@ -873,7 +920,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_49",
@@ -888,7 +936,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_50",
@@ -903,7 +952,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_51",
@@ -918,7 +968,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_52",
@@ -933,7 +984,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_53",
@@ -948,7 +1000,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_54",
@@ -963,7 +1016,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_55",
@@ -978,7 +1032,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_56",
@@ -993,7 +1048,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_57",
@@ -1021,7 +1077,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_58",
@@ -1036,7 +1093,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_59",
@@ -1051,7 +1109,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_60",
@@ -1066,7 +1125,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_61",
@@ -1081,7 +1141,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_62",
@@ -1096,7 +1157,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_63",
@@ -1112,7 +1174,8 @@
     "vehicleNumber": "HR26DY4485",
     "emergencyContact": "",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_64",
@@ -1140,7 +1203,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_65",
@@ -1149,14 +1213,14 @@
     "phone": "9880944550",
     "email": "punnikri@gmail.com",
     "isRented": false,
-    "familyCount": "3",
-    "occupation": "Private Employee",
-    "idType": "Aadhar",
-    "moveIn": "2026-01-01",
-    "vehicleNumber": "KL70H0603",
-    "emergencyContact": "9562427680",
-    "remarks": "Currently it's vaccant",
-    "tenants": []
+    "familyCount": "",
+    "occupation": "",
+    "idType": "",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "emergencyContact": "",
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_66",
@@ -1171,7 +1235,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_67",
@@ -1186,7 +1251,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_68",
@@ -1201,7 +1267,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_69",
@@ -1216,7 +1283,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_70",
@@ -1231,7 +1299,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_71",
@@ -1246,7 +1315,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_72",
@@ -1261,7 +1331,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_73",
@@ -1276,7 +1347,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_74",
@@ -1291,7 +1363,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_75",
@@ -1306,7 +1379,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_76",
@@ -1321,7 +1395,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_80",
@@ -1337,7 +1412,8 @@
     "vehicleNumber": "Kl55p6000",
     "emergencyContact": "9895213731",
     "remarks": "",
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "own_81",
@@ -1352,7 +1428,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_82",
@@ -1367,7 +1444,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_83",
@@ -1382,7 +1460,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_84",
@@ -1397,7 +1476,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_85",
@@ -1412,7 +1492,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_87",
@@ -1427,7 +1508,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_88",
@@ -1442,7 +1524,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_89",
@@ -1457,7 +1540,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_90",
@@ -1472,7 +1556,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "own_91",
@@ -1487,7 +1572,8 @@
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
-    "remarks": ""
+    "remarks": "",
+    "parkingSlot": ""
   },
   {
     "id": "mrtlhshse8viir",
@@ -1503,14 +1589,15 @@
     "emergencyContact": "9746839912",
     "remarks": "Out of station until 25th July",
     "isRented": false,
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   },
   {
     "id": "mrurm4tltd3jfq",
-    "name": "Sajeev,Vaishali & Iyan Idicula",
-    "unit": "09B",
+    "name": "Sajeev Idicula, Vaishali Idicula & Iyan Idicula",
+    "unit": "09B Appartment & Villa 11",
     "phone": "+919497477775",
-    "email": "sajeevidicula28@gmail.com",
+    "email": "idiculasajeev@gmail.com",
     "familyCount": "03",
     "occupation": "Director",
     "idType": "Aadhaar",
@@ -1519,6 +1606,7 @@
     "emergencyContact": "+971504181445",
     "remarks": "Currently Residing in Dubai.\nVilla30A, 27B Street, Mirdiff, Dubai",
     "isRented": false,
-    "tenants": []
+    "tenants": [],
+    "parkingSlot": ""
   }
 ]
