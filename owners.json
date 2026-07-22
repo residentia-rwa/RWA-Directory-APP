@@ -1604,5 +1604,22 @@
     "remarks": "",
     "isRented": false,
     "tenants": []
+  },
+  {
+    "id": "mrvkj5puks9fbq",
+    "name": "Ashif Akbar Ali Khan",
+    "unit": "12 J",
+    "phone": "8137996879",
+    "email": "ashifakbarali@gmail.com",
+    "familyCount": "3",
+    "occupation": "",
+    "idType": "Aadhaar",
+    "moveIn": "2026-04-15",
+    "vehicleNumber": "KL 38 L 8253",
+    "parkingSlot": "79",
+    "emergencyContact": "9495495069",
+    "remarks": "",
+    "isRented": false,
+    "tenants": []
   }
 ]
