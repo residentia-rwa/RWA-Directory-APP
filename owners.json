@@ -1265,23 +1265,6 @@
     "parkingSlot": ""
   },
   {
-    "id": "own_70",
-    "name": "Ashif Akbar Ali",
-    "unit": "12J",
-    "phone": "8137996879",
-    "email": "ashifakbarali@gmail.com",
-    "isRented": false,
-    "familyCount": "3",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "2026-04-15",
-    "vehicleNumber": "KL 38 L 8253",
-    "emergencyContact": "9495495069",
-    "remarks": "",
-    "parkingSlot": "79",
-    "tenants": []
-  },
-  {
     "id": "own_71",
     "name": "Vipin joy",
     "unit": "6J",
