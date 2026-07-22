@@ -387,19 +387,20 @@
   },
   {
     "id": "own_21",
-    "name": "Sunitha S Menon & P K Menon",
+    "name": "Sunitha S Menon & P K Menon,Ashwathy S Nair,Sasikala Menon",
     "unit": "13B",
     "phone": "9447090044",
     "email": "sunimenon.s@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
+    "familyCount": "4",
+    "occupation": "NA",
+    "idType": "849941199539",
+    "moveIn": "2024-11-06",
+    "vehicleNumber": "KL01DD 7902/KL01CC1401",
+    "emergencyContact": "Ashwathy:9400625204/Dr.Arun 9995122088",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "130",
+    "tenants": []
   },
   {
     "id": "own_22",
