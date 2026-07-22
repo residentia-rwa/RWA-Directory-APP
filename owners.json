@@ -991,10 +991,11 @@
     "occupation": "",
     "idType": "",
     "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
+    "vehicleNumber": "KA04MW7049",
+    "emergencyContact": "9886858684",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "124-First floor",
+    "tenants": []
   },
   {
     "id": "own_55",
