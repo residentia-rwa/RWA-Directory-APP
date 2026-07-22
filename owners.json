@@ -1266,7 +1266,7 @@
   },
   {
     "id": "own_70",
-    "name": "Ashif akbar ali",
+    "name": "Ashif Akbar Ali",
     "unit": "12J",
     "phone": "8137996879",
     "email": "ashifakbarali@gmail.com",
@@ -1278,7 +1278,8 @@
     "vehicleNumber": "",
     "emergencyContact": "",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_71",
