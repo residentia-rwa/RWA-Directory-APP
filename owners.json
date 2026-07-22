@@ -1607,22 +1607,5 @@
     "remarks": "",
     "isRented": false,
     "tenants": []
-  },
-  {
-    "id": "mrvxguryh2sqba",
-    "name": "Ashish Bhupal",
-    "unit": "6B",
-    "phone": "9620033700",
-    "email": "bhupal.ashish@gmail.com",
-    "familyCount": "2",
-    "occupation": "Private Job",
-    "idType": "Aadhar",
-    "moveIn": "",
-    "vehicleNumber": "KA04MW7049",
-    "parkingSlot": "",
-    "emergencyContact": "9886858684",
-    "remarks": "",
-    "isRented": false,
-    "tenants": []
   }
 ]
