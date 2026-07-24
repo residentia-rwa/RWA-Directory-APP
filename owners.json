@@ -339,19 +339,20 @@
   },
   {
     "id": "own_18",
-    "name": "Gee Varghese",
+    "name": "Geevarghese John",
     "unit": "3F&G",
-    "phone": "9961948091",
-    "email": "geevarghese gvjohn@gmail.com",
+    "phone": "8111801811",
+    "email": "gvjohn@gmail.com",
     "isRented": false,
-    "familyCount": "",
+    "familyCount": "5",
     "occupation": "",
     "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
+    "emergencyContact": "9961477962",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "101",
+    "tenants": []
   },
   {
     "id": "own_19",
