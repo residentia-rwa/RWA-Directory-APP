@@ -1608,5 +1608,22 @@
     "remarks": "",
     "isRented": false,
     "tenants": []
+  },
+  {
+    "id": "mrzw5lordmpk9r",
+    "name": "DR. JITHIN. R",
+    "unit": "8A",
+    "phone": "9562456550",
+    "email": "dr.jithinrajeev@gmail.com",
+    "familyCount": "3",
+    "occupation": "DOCTOR",
+    "idType": "AADHAR",
+    "moveIn": "2026-06-05",
+    "vehicleNumber": "KL01BS1807",
+    "parkingSlot": "BF6",
+    "emergencyContact": "9562456550",
+    "remarks": "",
+    "isRented": false,
+    "tenants": []
   }
 ]
