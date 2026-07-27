@@ -667,19 +667,20 @@
   },
   {
     "id": "own_36",
-    "name": "M.Sudha",
+    "name": "M.Sudha & Sunitha Bhaskar",
     "unit": "9A",
-    "phone": "9497758633, 9895021624",
-    "email": "sujathamadhavi2020@gmail.com, sunithapunalur@gmail.com",
+    "phone": "9497758633, 9995287269",
+    "email": "sunithapunalur@gmail.com,sudhadarsana@gmail.com",
     "isRented": false,
     "familyCount": "",
-    "occupation": "",
+    "occupation": "Business",
     "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
     "emergencyContact": "",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "38 BF",
+    "tenants": []
   },
   {
     "id": "own_37",
