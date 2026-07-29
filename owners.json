@@ -939,16 +939,17 @@
     "name": "Kiran P S",
     "unit": "8C",
     "phone": "7306579439",
-    "email": "kiran.estatistics.com",
+    "email": "kiran.estatistics@gmail.com",
     "isRented": false,
-    "familyCount": "",
-    "occupation": "",
+    "familyCount": "3",
+    "occupation": "Govt Servant",
     "idType": "",
     "moveIn": "",
     "vehicleNumber": "",
-    "emergencyContact": "",
+    "emergencyContact": "9633343062",
     "remarks": "",
-    "parkingSlot": ""
+    "parkingSlot": "",
+    "tenants": []
   },
   {
     "id": "own_52",
