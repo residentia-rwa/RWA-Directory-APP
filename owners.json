@@ -1610,5 +1610,34 @@
     "remarks": "",
     "isRented": false,
     "tenants": []
+  },
+  {
+    "id": "ms5uai7knp9q4o",
+    "name": "Jayadevi M",
+    "unit": "10F",
+    "phone": "8921367955",
+    "email": "seetharavi2019@gmail.com",
+    "familyCount": "One",
+    "occupation": "Pensioner",
+    "idType": "Adhar",
+    "moveIn": "",
+    "vehicleNumber": "",
+    "parkingSlot": "48",
+    "emergencyContact": "8921367955",
+    "remarks": "",
+    "isRented": true,
+    "tenants": [
+      {
+        "tenantName": "Mallana goud",
+        "tenantPhone": "",
+        "familyCount": "One",
+        "occupation": "Bank manager",
+        "idType": "",
+        "moveIn": "",
+        "vehicleNumber": "",
+        "emergencyContact": "",
+        "remarks": ""
+      }
+    ]
   }
 ]
