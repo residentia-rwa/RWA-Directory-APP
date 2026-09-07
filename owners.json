@@ -1,34 +1,5 @@
 [
   {
-    "id": "own_1",
-    "name": "Jayadevi",
-    "unit": "10F",
-    "phone": "9446445915",
-    "email": "naveenrkumar@gmail.com",
-    "isRented": true,
-    "tenants": [
-      {
-        "tenantName": "Nyamannavar",
-        "tenantPhone": "8281991389",
-        "familyCount": "",
-        "occupation": "",
-        "idType": "",
-        "moveIn": "",
-        "vehicleNumber": "",
-        "emergencyContact": "",
-        "remarks": ""
-      }
-    ],
-    "familyCount": "",
-    "occupation": "",
-    "idType": "",
-    "moveIn": "",
-    "vehicleNumber": "",
-    "emergencyContact": "",
-    "remarks": "",
-    "parkingSlot": ""
-  },
-  {
     "id": "own_2",
     "name": "Sarath",
     "unit": "2B",
